@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,400&family=Lilita+One&family=Mogra&display=swap');
+
+body {
+    font-family: 'Kanit', 'Lilita One', sans-serif;
+    margin: 0;
+}
+
+.title_trenza {
+    background-color: #FF90BC;
+    padding: 20px;
+}
+
+#a1 {
+    text-align: center;
+    border-style: solid;
+    border-width: 6px;
+    padding: 2px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.trenzas_niña {
+    background-color: #FFC0D9;
+    padding: 20px;
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+#a2 {
+    text-align: center;
+}
+
+.trenza_item {
+    display: inline-block; /* Mantiene los elementos en línea */
+    text-align: center; /* Alinea el contenido al centro */
+    margin: 20px; /* Ajusta el margen entre los elementos según sea necesario */
+    opacity: 1; /* Establece la opacidad inicial */
+    transition: opacity 0.5s ease; /* Agrega una transición de 0.5 segundos para suavizar el cambio de opacidad */
+}
+
+.trenza_item:hover {
+    opacity: 0.7; /* Reduce la opacidad al pasar el mouse */
+}
+
+.trenza_img {
+    border-radius: 25px; /* Agrega un radio al borde de la imagen si es necesario */
+}
+
+.trenza_text {
+    color: #F9F9E0;
+}
+.Peinados_dama{
+    background-color: #F9F9E0;
+    padding: 20px;
+    text-align: center;
+}
